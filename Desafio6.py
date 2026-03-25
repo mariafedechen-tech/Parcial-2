@@ -6,12 +6,9 @@ horas    = (segundos/3600)
 
 print("esse número de segundos tem como resultado", horas, "horas","ou" minutos, "minutos e ainda", segundos, "segundos")
 
-# Peça ao usuário que escreva o número em segundos
-def converter_segundos():
-    try:
-        segundos = int(input("Digite o número de segundos: "))
-        
-        # O número escrito vai ser convertido e o resultado vai ser exibido
-        horas, minutos, segundos_restantes = converter_para_segundos
-        print(f"{segundos} segundos é igual a {horas} horas, {minutos} minutos e {segundos_restantes} segundos.")
+# Será feito o contrário agora, para isso será pedido para o usuário escrever uma quantidade de horas
+h = int(input( "escreva quantas horas"))
+seg = ( h * 3600 )
+min = ( h * 60 ) 
+print("esse número de horas tem como resultado", h, "horas", "ou", min, "minutos e ainda", seg, "segundos")
    
