@@ -1,53 +1,32 @@
-# operação básica para soma
-def somar(x, y):
-    return x + y
+# Para uma mais fácil comunicação com o usuário, vai ser dado um número para cada operação que a calculadora pode fazer
+print("Selecione a operação:")
+print("1. Somar")
+print("2. Subtrair")
+print("3. Multiplicar")
+print("4. Dividir")
 
-# Operação básica para subtrair
-def subtrair(x, y):
-    return x - y
+# Vai ser pedido a pessoa que escolha o número referente a operação que ela quer realizar
+escolha = input("Digite o número da operação que deseja (1/2/3/4): ")
 
-# operação básica para multiplicar
-def multiplicar(x, y):
-    return x * y
+# Vai ser solicitado ao usuário para ele digitar os dois números que estarâo presentes na operação
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
 
-# Operação básica para divisão
-def dividir(x, y):
-    if y == 0:
-        return "Erro! Esta é uma divião por zero."
+# Esses são os códigos bases para cada operação que a calculadora faz, a partir disso os valores dados pelo usuário só serão substituídos e o resultado será exibido para a pessoa
+if escolha == '1':
+    resultado = num1 + num2
+    print(num1, "+", num2, "=", resultado)
+elif escolha == '2':
+    resultado = num1 - num2
+    print(num1, "-", num2, "=", resultado)
+elif escolha == '3':
+    resultado = num1 * num2
+    print(num1, "*", num2, "=", resultado)
+elif escolha == '4':
+    if num2 == 0:
+        print("Erro! Divisão por zero.")
     else:
-        return x / y
+        resultado = num1 / num2
+        print(num1, "/", num2, "=", resultado)
 
-# Estas são as possíveis operações que a calculadora simples pode executar
-def calculadora():
-    print("Selecione a operação:")
-    print("1. Somar")
-    print("2. Subtrair")
-    print("3. Multiplicar")
-    print("4. Dividir")
-
-    # Peça para o usuário que escolha qual operação ele quer fazer
-    escolha = input("escreva o número de acordo com a operação que você deseja (1/2/3/4): ")
-
-    # Será verificado qual operação o usuário escreveu
-    if escolha in ['1', '2', '3', '4']:
-        # Agora que já sabemos a operação, peça ao usuário que digite os dois números para a operação
-        try:
-            num1 = float(input("Escreva o primeiro número: "))
-            num2 = float(input("Escreva o segundo número: "))
-       
-        
-        # Agora será feita a operação de acordo com o que a pessoa escolheu
-        if escolha == '1':
-            print(f"{num1} + {num2} = {somar(num1, num2)}")
-        elif escolha == '2':
-            print(f"{num1} - {num2} = {subtrair(num1, num2)}")
-        elif escolha == '3':
-            print(f"{num1} * {num2} = {multiplicar(num1, num2)}")
-        elif escolha == '4':
-            print(f"{num1} / {num2} = {dividir(num1, num2)}")
-    # Se a pessoa escolher algo que não está programado para a calculdora fazer será mandado a mensagem que escolha inválida
-    else:
-        print("Escolha inválida!")
-
-# Chamar a função da calculadora
-calculadora()
+   
