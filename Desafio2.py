@@ -1,8 +1,8 @@
-# Solicita que o usuário digite um número
+# Vai ser pedido para o usuário digitar algum número
 numero = int(input("Digite um número: "))
-# Verifique se o número digitado é par
+# Será verificado se o número digitado pelo usuário é par
 if numero % 2 == 0:
-  # Dê a resposta
+  # A resposta vai ser apresentada
      print('número par')
 else: 
      print('número ímpar')
