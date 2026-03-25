@@ -1,21 +1,19 @@
-# Função para calcular a área do triângulo
+# Esta é a fórmula da área do triângulo que vai ser usada 
 def area_triangulo(base, altura):
     return (base * altura) / 2
 
-# Solicitar ao usuário a base e a altura do triângulo
+# Vai ser pedido ao usuário para que ele digite os valore para a base e a altura do triângulo
 def calcular_area():
     try:
-        base = float(input("Digite o valor da base do triângulo: "))
-        altura = float(input("Digite o valor da altura do triângulo: "))
+        base = float(input("Escreva o valor deejado para a base do triângulo: "))
+        altura = float(input("Escreva o valor desejado para a altura do triângulo: "))
         
-        # Calcular a área
+        # Agora que temos os valores, vai ser calculado de acordo com a fórmula a área do triãngulo
         area = area_triangulo(base, altura)
         
-        # Exibir o resultado
+        # O resultado da conta vai ser apresentado
         print(f"A área do triângulo com base {base} e altura {altura} é: {area}")
     
-    except ValueError:
-        print("Por favor, insira valores numéricos válidos.")
-
+    
 # Chamar a função para calcular a área
 calcular_area()
