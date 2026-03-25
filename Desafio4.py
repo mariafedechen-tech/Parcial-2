@@ -1,16 +1,16 @@
-# Função para somar
+# operação básica para soma
 def somar(x, y):
     return x + y
 
-# Função para subtrair
+# Operação básica para subtrair
 def subtrair(x, y):
     return x - y
 
-# Função para multiplicar
+# operação básica para multiplicar
 def multiplicar(x, y):
     return x * y
 
-# Função para dividir
+# Operação básica para divisão
 def dividir(x, y):
     if y == 0:
         return "Erro! Divisão por zero."
