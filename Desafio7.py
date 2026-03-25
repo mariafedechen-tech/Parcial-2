@@ -1,24 +1,12 @@
-# Função para calcular os juros simples
-def calcular_juros_simples(capital, taxa, tempo):
-    juros = (capital * taxa * tempo) / 100
-    return juros
+# Código para calcular os juros simples
+# Será pedido ao usuário que digite o valor desejado para cada elemento: capital, taxa e o tempo
 
-# Solicitar ao usuário os valores de capital, taxa e tempo
-def calcular_juros():
-    try:
-        # Entrada de dados
-        capital = float(input("Digite o valor do capital (C): "))
-        taxa = float(input("Digite a taxa de juros (I) em %: "))
-        tempo = float(input("Digite o tempo (T) em anos: "))
-        
-        # Calcular os juros
-        juros = calcular_juros_simples(capital, taxa, tempo)
-        
-        # Exibir o resultado
-        print(f"O valor dos juros é: R${juros:.2f}")
-    
-    except ValueError:
-        print("Por favor, insira valores numéricos válidos.")
+capital = float(input("Escreva o valor do capital: "))
+taxa = float(input("Escreva a taxa (%): "))
+tempo = float(input("Escreva o tempo em anos: "))
+ # Esta é a fórmula dos juros simples, os dados digitados pelo usuário vão ser substituidos na fórmula
+juros = (capital * taxa * tempo) / 100
 
-# Chamar a função para calcular os juros
-calcular_juros()
+# O resultado vai ser exibido para o usuário
+print("O valor dos juros é:", juros)
+
