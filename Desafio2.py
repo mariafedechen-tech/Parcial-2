@@ -1,3 +1,4 @@
+# Código para verificar se um número é par
 # Vai ser pedido para o usuário digitar algum número
 numero = int(input("Digite um número: "))
 # Será verificado se o número digitado pelo usuário é par
