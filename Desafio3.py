@@ -3,6 +3,7 @@
 # O print está sendo usado para exibir essa mensagem para o usuário
 print("Escreva 5 nomes:")
 
+# O input é usado para 
 nome1 = input("Digite o nome 1: ")
 nome2 = input("Digite o nome 2: ")
 nome3 = input("Digite o nome 3: ")
