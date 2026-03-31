@@ -1,5 +1,6 @@
 # Código de lista de 5 nomes
 # Será pedido ao usuário para escrever 5 nomes de sua escolha
+# O print está sendo usado para exibir essa mensagem para o usuário
 print("Escreva 5 nomes:")
 
 nome1 = input("Digite o nome 1: ")
