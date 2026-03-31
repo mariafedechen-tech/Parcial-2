@@ -7,7 +7,9 @@ numero = int(input("Digite um número: "))
 # O if é usado para dar uma condição, para caso a afirmação seja verdade
 if numero % 2 == 0:
   # A resposta vai ser apresentada
+  # O print é usado para mostrar o resultado do código
      print('número par') 
   # O else é usado para quando de acordo com o if a afirmação for falsa
+# O print é usado para mostrar o resultado do código
 else: 
      print('número ímpar')
