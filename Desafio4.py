@@ -8,9 +8,11 @@ print("3. Multiplicar")
 print("4. Dividir")
 
 # Vai ser pedido a pessoa que escolha o número referente a operação que ela quer realizar
+# O input é usado para interpretar os números e no geral o que a pessoa digitar 
 escolha = input("Digite o número da operação que deseja (1/2/3/4): ")
 
 # Vai ser solicitado ao usuário para ele digitar os dois números que estarâo presentes na operação
+# O input é usado para interpretar os números e no geral o que a pessoa digitar 
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
 
