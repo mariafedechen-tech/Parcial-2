@@ -18,6 +18,8 @@ num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
 
 # Esses são os códigos bases para cada operação que a calculadora faz, a partir disso os valores dados pelo usuário só serão substituídos e o resultado será exibido para a pessoa
+# O if é usado para dar uma condição, para caso a afirmação seja verdade
+
 if escolha == '1':
     resultado = num1 + num2
     print(num1, "+", num2, "=", resultado)
