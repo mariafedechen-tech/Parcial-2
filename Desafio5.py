@@ -9,6 +9,7 @@ altura = float(input("Escreva o valor da altura do triângulo: "))
 area = (base * altura) / 2
 
 # O resultado da conta será exibido para a pessoa
+# O print é usado para mostrar o resultado do código
 print("A área do triângulo com base", base, "e altura", altura, "é:", area)
     
 
