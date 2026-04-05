@@ -12,6 +12,7 @@ print("4. Dividir")
 escolha = input("Digite o número da operação que deseja (1/2/3/4): ")
 
 # Vai ser solicitado ao usuário para ele digitar os dois números que estarâo presentes na operação
+# O float é usado para representar números quebrados 
 # O input é usado para interpretar os números e no geral o que a pessoa digitar 
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
