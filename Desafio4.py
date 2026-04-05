@@ -21,6 +21,7 @@ num2 = float(input("Digite o segundo número: "))
 # O if é usado para dar uma condição, para caso a afirmação seja verdade
 # O else é usado para quando de acordo com o if a afirmação for falsa
 # O elif é uma abreviação do if e do else, ele permite que sejam testadas várias condições, nesse caso as 4 operações, sem que precise ficar usando todas as vezes o if e o else
+  # O print é usado para mostrar o resultado do código
 if escolha == '1':
     resultado = num1 + num2
     print(num1, "+", num2, "=", resultado)
