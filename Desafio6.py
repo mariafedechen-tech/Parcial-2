@@ -7,6 +7,7 @@ minutos  = (segundos//60)
 horas    = (segundos//3600)
 
 # Será mostrado o resultado
+# O print é usado para mostrar o resultado do código
 print("horas:")
 print(horas)
 print("minutos:")
@@ -21,6 +22,7 @@ h = int(input( "escreva quantas horas: "))
 seg = ( h * 3600 )
 m = ( h * 60 ) 
 # Será mostrado o resultado
+# O print é usado para mostrar o resultado do código
 print("horas:")
 print(h)
 print("minutos:")
