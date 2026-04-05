@@ -1,5 +1,6 @@
 # Código de uma calculadora simples, que faz soma, subtração, multiplicação e divisão
 # Para uma mais fácil comunicação com o usuário, vai ser dado um número para cada operação que a calculadora pode fazer
+# O print está sendo usado para exibir essa mensagem para o usuário
 print("Selecione a operação:")
 print("1. Somar")
 print("2. Subtrair")
