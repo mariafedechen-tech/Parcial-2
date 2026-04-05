@@ -10,5 +10,6 @@ tempo = float(input("Escreva o tempo em anos: "))
 juros = (capital * taxa * tempo) / 100
 
 # O resultado vai ser exibido para o usuário
+# O print é usado para mostrar o resultado do código
 print("O valor dos juros é:", juros)
 
