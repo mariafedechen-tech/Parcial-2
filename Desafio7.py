@@ -1,5 +1,7 @@
 # Código para calcular os juros simples
 # Será pedido ao usuário que digite o valor desejado para cada elemento: capital, taxa e o tempo
+# O float é usado para representar números quebrados 
+# O input é usado para interpretar os números e no geral o que a pessoa digitar 
 
 capital = float(input("Escreva o valor do capital: "))
 taxa = float(input("Escreva a taxa (%): "))
