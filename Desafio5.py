@@ -1,6 +1,7 @@
 # Código para calcular a área do triângulo
 # Vai ser pedido ao usuário para escrever os valores que ele deseja para a base e a altura do triângulo
-
+# O float é usado para representar números quebrados 
+# O input é usado para interpretar os números e no geral o que a pessoa digitar 
 base = float(input("Escreva o valor da base do triângulo: "))
 altura = float(input("Escreva o valor da altura do triângulo: "))
 
